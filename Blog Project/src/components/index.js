@@ -5,11 +5,15 @@ import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE"
 import Signup from "./Signup";
+import Button from "./Button";
 import Login from "./Login";
-import AddPost from "../pages/AddPost";
+// import AddPost from "../pages/AddPost";
 import PostForm from '../components/post-form/PostForm'
 import PostCard from './PostCard'
 import AuthLayout from './AuthLayout'
+import Input from './Input'
+import Select from './Select'
+import authService from "../appwrite/auth";
 
 export {
     Header,
@@ -19,9 +23,13 @@ export {
     LogoutBtn,
     RTE,
     Signup,
+    Button,
     Login,
-    AddPost,
+    // AddPost,
     PostForm,
     PostCard,
     AuthLayout,
+    Input,
+    Select,
+    authService
 }
